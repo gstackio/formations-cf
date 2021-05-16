@@ -1,23 +1,21 @@
 ---
 date: 2016-04-19T18:59:04-06:00
-title: Prerequisites
+title: Pré-requis
 ---
 
-Please review the requirement below and **complete the following prerequisites before class**.
+**Merci de valider les pré-requis suivants avant le début de la formation**.
 
-## Experience
+## Connaissances
 
-This training is targeted at people with:
+Cette section s'adresse à une population :
+* dotée d'une première expérience sur Cloud Foundry
+* dotée d'une première expérience de déploiement d'applications web
+* à l'aise avec l'utilisation d'une ligne de commande et de SSH
 
-* Basic Cloud Foundry experience
-* Some experience deploying web-based applications
-* Comfortable using the command line and SSH
+## Configuration requise
 
-
-## System Requirements
-
-* Linux, Windows or OS X (all 64bit)
-* 1GB of FREE RAM
-* ability to install software
-* code editor of choice
-* <a href="https://curl.haxx.se" target="_blank">cURL</a> (<a href="https://curl.haxx.se/download.html#Win64" target="_blank">for windows</a>)
+* Linux, Windows ou macOS (64bit)
+* 1GB de RAM **disponible**
+* possibilité d'installer des logiciels
+* un éditeur de code au choix
+* <a href="https://curl.haxx.se" target="_blank">cURL</a> (<a href="https://curl.haxx.se/download.html#Win64" target="_blank">pour windows</a>)
