@@ -11,17 +11,17 @@ columnLeftContent: |
 
 columnRightContent: |
 
-  **Où peut-on obtenir Cloud Foundry open source&nbsp;?**
+  **Où peut-on obtenir Cloud Foundry _open source_&nbsp;?**
 
   * [**github.com/cloudfoundry**](https://github.com/cloudfoundry)
-  * [**cfdev**](https://github.com/cloudfoundry-incubator/cfdev), un CF complet dans une machine virtuelle légère  pour macOS
+  * [**cfdev**](https://github.com/cloudfoundry-incubator/cfdev), un CF complet dans une VM légère  pour macOS
   * **cf-deployment**, qui demande de déjà connaître [BOSH](https://bosh.io/docs)
-  * **BOSH Lite v2** for a local CF deployment
+  * **BOSH Lite v2** pour déployer CF dans VirtualBox
   * [**cf local**](https://github.com/cloudfoundry-incubator/cflocal) qui simule un CF dans un Docker en local
 
 notes: |
 
-  * Cloud Foundry est un projet open source. Mais utiliser une distribution _open source_ nécessite des compétences BOSH, qui demande un certain investissement.
+  * Cloud Foundry est un projet open source. Mais utiliser une distribution _open source_ nécessite des compétences BOSH, et donc un certain investissement.
 
   * BOSH est un robot qui gère des VMs, c'est la _Rolls Royce_ en la matière.
 

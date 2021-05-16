@@ -19,7 +19,7 @@ columnRightContent: |
 
   * Fait tourner des **images de conteneurs** déjà construites
   * Idéal pour les **applications des fournisseurs**
-  * Adapté pour embarquer les applications historiques qui ne sont pas _Cloud Native_
+  * Adapté pour **encapsuler les applications historiques** qui ne sont pas _Cloud Native_
 
 notes: |
 
