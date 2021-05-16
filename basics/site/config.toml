@@ -9,13 +9,13 @@ googleAnalytics = "UA-67001027-2"
 
 [params]
 	# General information
-	author = "sgreenberg@pivotal.io"
-	description = "CF Foundation Training - Cloud Foundry Basics"
-	copyright = "Copyright Cloud Foundry Foundation.  All Rights Reserved."
+	author = "benjamin@gstack.io"
+	description = "Formation Cloud Foundry - Les bases de Cloud Foundry"
+	copyright = "Fondation CF et Gstack.io, Tous droits réservés."
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/cloudfoundry/summit-training-classes"
+	repo_url = "https://github.com/gstackio/formations-cf"
 
 	version = "1.6.0"
   headerLogo = "/img/cf-white.png"
@@ -42,7 +42,7 @@ googleAnalytics = "UA-67001027-2"
 
 [social]
 	twitter = ""
-	github  = "cloudfoundry/summit-training-classes"
+	github  = "gstackio/formations-cf"
 
 
 [[menu.main]]

@@ -1,66 +1,66 @@
 ---
 date: 2016-04-19T19:21:15-06:00
-title: Agenda
+title: Sommaire
 ---
 
-## 1. What is Cloud Foundry?
+## 1. Cloud Foundry, c'est quoi&nbsp;?
 
 <a href="/slides/#/what-is-cf" target="_blank">
   <i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/new-account)
 
-_I can log into a Cloud Foundry_
+_Se connecter à Cloud Foundry_
 
 
-## 2. Interacting with Cloud Foundry via the CLI
+## 2. Utiliser Cloud Foundry en ligne de commande
 
 <a href="/slides/#/interacting" target="_blank"><i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/cli)
 
-_I can interact with Cloud Foundry_
+_Interagir avec Cloud Foundry_
 
 
-## 3. Pushing Your First App
+## 3. Pousser une première appli
 
 <a href="/slides/#/pushing" target="_blank"><i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/pushing)
 
-_I can access my app on a public URL_
+_Accéder à une appli sur son URL publique_
 
 
 
-## 4. Buildpacks
+## 4. Les _Buildpacks_
 
 <a href="/slides/#/buildpacks" target="_blank"><i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/buildpacks)
 
-_I can push apps without caring how runtime dependencies are provided_
+_Pousser des applis sans se soucier des détails du packaging pour la mise en ligne_
 
 
 
-## 5. Resilience and Availability
+## 5. Résilience et disponibilité
 
 <a href="/slides/#/availability" target="_blank"><i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/availability)
 
-_As an app user, I can still use the app even if an instance crashes_
+_Tirer parti des capacités de résilience offertes par la plateforme_
 
 
-## 6. Debugging
+## 6. Le déboguage
 
 <a href="/slides/#/debugging" target="_blank"><i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/debugging)
 
-_I can investigate my apps to determine the cause of errors_
+_Investiguer les soucis de mon application pour identifier l'origine des problème_
 
 
-## 7. Dealing with State
+## 7. Gérer le _stateful_
 
 <a href="/slides/#/state" target="_blank"><i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/state)
 
-_I can share persistent data between app instances_
+_Partager des données persistentes entre les applications_
 
 
 
-## 8. Domains & Routes
+## 8. Les domaines et les routes
 
 <a href="/slides/#/routes" target="_blank"><i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/routes)
 
-_As an app user, I see no downtime when the app is updated_
+_Livrer des nouvelles versions sans disruption_
 
 
-## 9. Recap & Retro
+## 9. Récap & Rétro
