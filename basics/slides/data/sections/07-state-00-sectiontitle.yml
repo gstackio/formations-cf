@@ -1,9 +1,9 @@
 ---
-menuTitle: "Goal"
+menuTitle: "Objectif"
 id: state
 type: "statement"
 backgroundColor: "#243641"
 buildInColumns: "false"
 statements:
-  - Part 7.
-  - Dealing with State
+  - Chapitre 7
+  - Comment gérer le _stateful_

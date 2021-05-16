@@ -4,5 +4,5 @@ type: "statement"
 backgroundColor: "#243641"
 buildInStatements: "true"
 statements:
-  - Travaux pratiques
+  - Travaux pratiques 1
   - Je me connecte à Cloud&nbsp;Foundry

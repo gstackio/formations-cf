@@ -1,9 +1,9 @@
 ---
-menuTitle: "Goal"
+menuTitle: "Objectif"
 id: debugging
 type: "statement"
 backgroundColor: "#243641"
 buildInColumns: "false"
 statements:
-  - Part 6.
-  - Debugging
+  - Chapitre 6
+  - Le déboguage

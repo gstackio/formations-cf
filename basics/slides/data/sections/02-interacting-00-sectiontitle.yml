@@ -1,9 +1,9 @@
 ---
-menuTitle: "Goal"
+menuTitle: "Objectif"
 id: interacting
 type: "statement"
 backgroundColor: "#243641"
 buildInStatements: "true"
 statements:
-  - Part 2.
-  - Interacting with Cloud&nbsp;Foundry
+  - Chapitre 2
+  - Interagir avec Cloud&nbsp;Foundry

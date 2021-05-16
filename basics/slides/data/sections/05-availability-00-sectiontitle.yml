@@ -1,9 +1,9 @@
 ---
-menuTitle: "Goal"
+menuTitle: "Objectif"
 id: availability
 type: "statement"
 backgroundColor: "#243641"
 buildInStatements: "true"
 statements:
-  - Part 5.
-  - Resilience and Availability
+  - Chapitre 5
+  - Résilience et disponibilité

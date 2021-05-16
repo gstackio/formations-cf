@@ -1,9 +1,9 @@
 ---
-menuTitle: "Goal"
+menuTitle: "Objectif"
 id: pushing
 type: "statement"
 backgroundColor: "#243641"
 buildInStatements: "true"
 statements:
-  - Part 3.
-  - Pushing Your First App
+  - Chapitre 3
+  - Pousser une première appli

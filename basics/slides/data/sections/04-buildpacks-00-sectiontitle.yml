@@ -1,9 +1,9 @@
 ---
-menuTitle: "Goal"
+menuTitle: "Objectif"
 id: buildpacks
 type: "statement"
 backgroundColor: "#243641"
 buildInStatements: "true"
 statements:
-  - Part 4.
-  - Buildpacks
+  - Chapitre 4
+  - Les _Buildpacks_
