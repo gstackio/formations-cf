@@ -1,12 +1,12 @@
 type: "two-line"
-title: "Challenges"
-menuTitle: "Scaling a Monolith"
-topLine: Monolithic
+title: "Défis"
+menuTitle: "Re-dimensionner une application monilithique"
+topLine: Application monolithique
 backgroundColor: "#424242"
-bottomLine: Scaling
+bottomLine: Re-dimensionnement
 
 notes: |
 
-  Scaling a monolith is often difficult.  Size is a challenge, but the
-  complexity of the codebase, inter-dependencies, networking, data sources,
-  often make them very difficult to scale past a certain point.
+  Re-dimensionner une application monolithique est souvent difficile.
+  La complexité du code, ses inter-dépendances, le réseau, les sources de données
+  rendent souvent le re-dimensionnement difficile à partir d'un certain point.

@@ -1,12 +1,12 @@
 ---
 type: "two-column"
-menuTitle: "What is a Monolith?"
+menuTitle: "Qu'est-ce qu'une application monolithique ?"
 
 columnLeftContent: |
 
   <br />
 
-  # What is a Monolith?
+  # Qu'est-ce qu'une application monolithique ?
 
   <img src="img/monolith.svg" style="padding-left: 50px"/>
 
@@ -14,13 +14,14 @@ columnRightContent: |
 
   <br />
 
-  # Typically...
+  # Typiquement...
 
-  * Tightly **coupled**
-  * Multi-responsibility/**mixed concerns**
-  * **Large** deployable unit(s)
+  * Formée d'un seul bloc, composants interconnectés et interdépendants
+  * Enchevètrement des responsabilités
+  * **Grosse** application à deployer
 
 
 notes: |
 
-  Monoliths are how we all built apps.  It is often still how we start.
+  Les applications monolithiques représentent le modèle traditionnel unifié de conception d'un programme informatique.
+

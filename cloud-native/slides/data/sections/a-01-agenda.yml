@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "Agenda"
-subtitle: "What are we going to do?"
-menuTitle: "Agenda"
+title: "Sommaire"
+subtitle: "Qu'allons-nous faire ?"
+menuTitle: "Sommaire"
 buildInColumns: "true"
 
 columnLeftContent: |
@@ -11,7 +11,7 @@ columnLeftContent: |
 
 columnRightContent: |
 
-    * Monolithic Applications
-    * Challenges
-    * Going Cloud Native
+    * Applications monolithiques
+    * Défis
+    * Adopter le 'Cloud Native'
 
