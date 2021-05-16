@@ -1,13 +1,13 @@
 ---
 type: "slide-basic"
-title: "What is a PaaS?"
-subtitle: "Application Runtime"
-menuTitle: "Application Runtime"
+title: "C'est quoi un PaaS&nbsp;?"
+subtitle: "L'Application Runtime"
+menuTitle: "L'Application Runtime"
 buildInColumns: "false"
 
 content: |
 
-  Cloud Computing taxonomy: **IaaS**, **PaaS**, and **SaaS**
+  Les types de _Cloud Computing_&nbsp;: **IaaS**, **PaaS**, and **SaaS**
 
   ![taxonomy of cloud computing](img/power-of-platform.png)
 

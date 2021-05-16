@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "Agenda"
-subtitle: "What are we going to do?"
-menuTitle: "Agenda"
+title: "Au menu"
+subtitle: "Thèmes abordés dans ce chapitre"
+menuTitle: "Au menu"
 buildInColumns: "false"
 
 columnLeftContent: |
@@ -11,6 +11,6 @@ columnLeftContent: |
 
 columnRightContent: |
 
-    * Overview
-    * CF Foundation
-    * Distributions
+    * Introduction
+    * La fondation Cloud&nbsp;Foundry
+    * Les distributions de CF

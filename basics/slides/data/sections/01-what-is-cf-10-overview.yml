@@ -1,39 +1,39 @@
 ---
 type: "two-column"
-title: "Cloud Foundry Overiew"
-subtitle: "The open platform"
-menuTitle: "CF Overview"
+title: "Introduction à Cloud Foundry"
+subtitle: "La plateforme ouverte"
+menuTitle: "Introduction"
 buildInColumns: "false"
 
 columnLeftContent: |
 
   <span class="txt-c">
 
-    What is...
-
     <img src="img/cf-logo-vertical.png" style="max-height: 350px" />
+
+    ... mais c'est quoi&nbsp;?
 
   </span>
 
 columnRightContent: |
 
-  * Initial release in **2011**
-  * An **open** Cloud Native Platform
-  * Application Runtime and Container Runtime
-  * Fast and easy to **build, test, deploy &amp; scale apps**
-  * Works with **any language** or framework
-  * Available as **open source**, **commercial distributions** or **hosted offerings**
+  * Première version diffusée en **2011**
+  * Une plateforme “_Cloud Native_” **ouverte**
+  * _Application Runtime_ d'une part, et _Container Runtime_ d'autre part
+  * Facile et rapide pour **compiler, assembler, tester, déployer et démultiplier** des applications web
+  * Supporte **tout langage** et tout framework
+  * Disponible en **open source**, en **distribution commerciale** or en **offre hébergée**
 
 notes: |
 
-  * Conceived at VMWare as 'Project B29' in 2009
+  * Initialement conçu chez VMware en 2009, sous le nom «&nbsp;Projet B29&nbsp;».
 
-  * CF Foundation formed in 2015 as a non-profit to neutrally govern CF and build the community
+  * La fondation Cloud Foundry à but non-lucratif est lancée en 2015, pour une gouvernance neutre et constituer une communauté de contributeurs.
 
-  * Open-source with an Apache license, hosted on GitHub.
+  * Open-source en license Apache 2, hébergé sur GitHub.
 
-  * Developers use the cf command line utility to interact with a CF deployment.
+  * Les développeurs utilisent la commande `cf` pour interagir avec les plateformes CF.
 
-  * The cf CLI is pre-built for Windows, Mac and Linux.
+  * La ligne de commande `cf` est précompilée pour Windows, macOS et Linux.
 
-  * CF supports any language or framework through buildpacks. More on that subject later.
+  * CF supporte tout langage et tout framework à l'aide des _Buildpacks_, que nous détaillerons plus loiin.

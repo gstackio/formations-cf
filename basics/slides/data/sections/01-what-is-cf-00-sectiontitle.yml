@@ -1,9 +1,9 @@
 ---
-menuTitle: "Goal"
+menuTitle: "Objectif"
 id: what-is-cf
 type: "statement"
 backgroundColor: "#243641"
 buildInStatements: "true"
 statements:
-  - Part 1.
-  - What is Cloud&nbsp;Foundry?
+  - Chapitre 1
+  - Cloud&nbsp;Foundry, c'est quoi&nbsp;?

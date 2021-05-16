@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "What is the Application Runtime?"
-subtitle: "Application Runtime"
-menuTitle: "Application Runtime"
+title: "Qu'est-ce que l'_Application Runtime_ ?"
+subtitle: "L'Application Runtime"
+menuTitle: "L'Application Runtime"
 buildInColumns: "false"
 
 columnLeftContent: |
@@ -15,15 +15,17 @@ columnLeftContent: |
 
 columnRightContent: |
 
-  **Application Runtime is PaaS**
+  **L'Application Runtime, c'est un PaaS**
 
-  * PaaS aims to improve developer **productivity**
-  * Reduces undifferentiated 'plumbing' aka **'yak shaving'**
-  * Heroku blazed a trail for **PaaS** and **12 Factor** apps
-  * Applications are the **Cloud Native** unit of currency
+  * Un PaaS vise à améliorer la **productivité** des développeurs
+  * Ca réduit la «&nbsp;plomberie&nbsp;» nécessaire, qui revient sans cesse, toujours la même
+  * Heroku a posé des jalons essentiels pour fonder le **PaaS** et théoriser les applications **12 facteurs**
+  * Les applications sont au centre de la mouvance **Cloud Native**
 
 notes: |
 
-  * Up until recently CF _was_ CFAR. Many still use them interchangeably
+  * Jusqu'à récemment, CFAR c'était tout simplement CF. On utilise encore les deux termes indifféremment
 
-  * Heroku created patterns based on their experiences called "12 Factors" that have been heavily influencial. Also drove "buildpack" model
+  * Les anglophones parment de **'yak shaving'** pour la «&nbsp;plomberie&nbsp;» récurrente
+
+  * Heroku a créé des _patterns_ de programmation appelés «&nbsp;12 facteurs&nbsp;», basés sur leur expérience, et qui ont eu un impact considérable. Ils ont aussi lancé le concept de «&nbsp;Buildpack&nbsp;».

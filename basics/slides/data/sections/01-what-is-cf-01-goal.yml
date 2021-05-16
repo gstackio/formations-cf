@@ -1,7 +1,7 @@
 ---
-menuTitle: "Goal"
+menuTitle: "Objectif"
 type: "statement"
 backgroundColor: "#243641"
 buildInStatements: "true"
 statements:
-  - How can I access *Cloud&nbsp;Foundry?*
+  - Comme accéder à *Cloud&nbsp;Foundry&nbsp;?*
