@@ -43,9 +43,9 @@ googleAnalytics = "UA-67001027-2"
 	github  = "gstackio/formations-cf"
 
 [[menu.main]]
-	name   = "Aperçu"
+	name   = "Bienvenue"
 	url    = ""
-	weight = 0
+	weight = 1
 
 [[menu.main]]
 	name   = "Pré-requis"

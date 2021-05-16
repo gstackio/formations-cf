@@ -1,6 +1,6 @@
 ---
 date: 2016-04-19T19:04:11-06:00
-title: "Aperçu : Les bases de Cloud Foundry"
+title: "Bienvenue dans les bases de Cloud Foundry"
 type: index
 ---
 

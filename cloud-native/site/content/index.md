@@ -1,6 +1,6 @@
 ---
 date: 2016-04-19T18:59:04-06:00
-title: "Microservices et Cloud Foundry: Devenir Cloud Native"
+title: "Microservices et Cloud Foundry : adopter le 'Cloud Native'"
 type: index
 ---
 
