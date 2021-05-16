@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "Au menu"
-subtitle: "Thèmes abordés dans ce chapitre"
-menuTitle: "Au menu"
+title: "Sommaire"
+subtitle: "Qu'allons-nous découvrir ?"
+menuTitle: "Sommaire"
 buildInColumns: "false"
 
 columnLeftContent: |

@@ -1,6 +1,6 @@
 ---
 type: "two-column"
-title: "Introduction à Cloud Foundry"
+title: "Cloud Foundry"
 subtitle: "La plateforme ouverte"
 menuTitle: "Introduction"
 buildInColumns: "false"
@@ -17,23 +17,23 @@ columnLeftContent: |
 
 columnRightContent: |
 
-  * Première version diffusée en **2011**
-  * Une plateforme “_Cloud Native_” **ouverte**
-  * _Application Runtime_ d'une part, et _Container Runtime_ d'autre part
-  * Facile et rapide pour **compiler, assembler, tester, déployer et démultiplier** des applications web
+  * Première version en **2011**
+  * Plateforme _“Cloud Native”_ **ouverte**
+  * _Application Runtime_, et _Container Runtime_
+  * Facile et rapide pour **packager, tester, déployer et démultiplier** des applications web
   * Supporte **tout langage** et tout framework
   * Disponible en **open source**, en **distribution commerciale** or en **offre hébergée**
 
 notes: |
 
-  * Initialement conçu chez VMware en 2009, sous le nom «&nbsp;Projet B29&nbsp;».
+  * Démarré chez VMware en 2009, le «&nbsp;Projet B29&nbsp;».
 
-  * La fondation Cloud Foundry à but non-lucratif est lancée en 2015, pour une gouvernance neutre et constituer une communauté de contributeurs.
+  * La fondation Cloud&nbsp;Foundry à but non-lucratif est lancée en 2015 pour assurer une gouvernance neutre et constituer une communauté de contributeurs.
 
-  * Open-source en license Apache 2, hébergé sur GitHub.
+  * Open-source en license Apache 2.0, hébergé sur GitHub.
 
-  * Les développeurs utilisent la commande `cf` pour interagir avec les plateformes CF.
+  * Les développeurs utilisent la commande `cf` pour interagir avec la plateforme.
 
   * La ligne de commande `cf` est précompilée pour Windows, macOS et Linux.
 
-  * CF supporte tout langage et tout framework à l'aide des _Buildpacks_, que nous détaillerons plus loiin.
+  * CF supporte tout langage et tout framework à l'aide des _Buildpacks_, que nous détaillerons plus loin.

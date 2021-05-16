@@ -1,20 +1,20 @@
 ---
 type: "slide-basic"
-title: "C'est quoi un PaaS&nbsp;?"
+title: "C'est quoi un PaaS ?"
 subtitle: "L'Application Runtime"
 menuTitle: "L'Application Runtime"
 buildInColumns: "false"
 
 content: |
 
-  Les types de _Cloud Computing_&nbsp;: **IaaS**, **PaaS**, and **SaaS**
+  3 types de _Cloud Computing_&nbsp;: **IaaS**, **PaaS**, and **SaaS**
 
   ![taxonomy of cloud computing](img/power-of-platform.png)
 
 notes: |
 
-  * IaaS - virtualization/servers and below are managed (AWS/GCP)
+  * IaaS - la virtualisation, les serveurs et l'infra sous-jacente sont managés (AWS/GCP/Azure)
 
-  * PaaS - runtime and below are managed (CF)
+  * PaaS - le _runtime_ et l'infra sous-jacente sont managés (CF)
 
-  * SaaS - everything is managed for you (Google Apps)
+  * SaaS - tout est managé (Google Apps)

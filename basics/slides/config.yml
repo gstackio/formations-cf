@@ -2,7 +2,7 @@
 
 baseurl: "/"
 languageCode: "fr-fr"
-title: "Cloud Foundry : de zéro jusqu'au héros"
+title: "Cloud Foundry, du sol au plafond !"
 theme: "hugo-theme-pivotal-revealjs"
 
 params:
