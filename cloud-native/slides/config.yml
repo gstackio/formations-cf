@@ -1,8 +1,8 @@
 ---
 
 baseurl: "/slides"
-languageCode: "en-us"
-title: "Cloud Native Evolution"
+languageCode: "fr-fr"
+title: "Evoluer vers le 'Cloud Native'"
 theme: "hugo-theme-pivotal-revealjs"
 
 params:
@@ -10,7 +10,7 @@ params:
   logo: img/cf.png
 
   titleSlide:
-    subtitle: "Going Cloud Native"
+    subtitle: "Adopter le 'Cloud Native'"
     notes: |
 
-      In this section, we cover the evolution toward cloud native.
+      Dans cette section, nous allons découvrir comment évoluer vers la mouvance 'Cloud Native'.
