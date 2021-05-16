@@ -1,9 +1,9 @@
 ---
 date: 2016-04-19T18:59:04-06:00
-title: "Microservices on Cloud Foundry: Going Cloud Native"
+title: "Microservices et Cloud Foundry: Devenir Cloud Native"
 type: index
 ---
 
-This course is designed to give its students a hands on experience of designing applications for Cloud Foundry. We will give an overview of Cloud Foundry and its tools from the point of view of an application developer and how to architect polyglot applications for deployment and scaling in the cloud.
+Ce cours vise à donner une expérience pratique du design d'applications sur Cloud Foundry. Celui-ci offre une vue d'ensemble de Cloud Foundry et de ses outils du point de vue d'un developpeur d'applications, ainsi que des méthodes pour bâtir des applications polyglottes déployables et redimensionnables dans le cloud.
 
-This training is targeted at developers with little hands-on Cloud Foundry experience and those who have an interest in deploying innovative, microservice-based systems into the cloud.
+Ce cours s'adresse aux développeurs avec une expérience pratique de Cloud Foundry, et à ceux qui cherchent à déployer des applications innnovantes à base de micro services dans le cloud.
