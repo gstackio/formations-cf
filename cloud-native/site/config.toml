@@ -9,8 +9,12 @@ googleAnalytics = "UA-67001027-2"
 
 [params]
 	# General information
-	description = "CF Foundation Training - Cloud Native with Microservices"
-	copyright = "Copyright Cloud Foundry Foundation.  All Rights Reserved."
+	description = "Formation Cloud Foundry - Cloud Native et Microservices"
+	copyright = "Fondation CF et Gstack.io, Tous droits réservés."
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/gstackio/formations-cf"
 
 	version = "1.0.1"
   headerLogo = "/img/cf-white.png"
@@ -36,25 +40,25 @@ googleAnalytics = "UA-67001027-2"
 
 
 [social]
-	github  = "cloudfoundry/summit-training-classes"
+	github  = "gstackio/formations-cf"
 
 [[menu.main]]
-	name   = "Overview"
+	name   = "Aperçu"
 	url    = ""
 	weight = 0
 
 [[menu.main]]
-	name   = "Prerequisites"
+	name   = "Pré-requis"
 	url    = "prereqs/"
 	weight = 10
 
 [[menu.main]]
-	name   = "Agenda"
+	name   = "Sommaire"
 	url    = "agenda/"
 	weight = 20
 
 [[menu.main]]
-	name   = "Resources"
+	name   = "Compléments"
 	url    = "resources/"
 	weight = 30
 
