@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "Goals"
-subtitle: "What we will accomplish?"
-menuTitle: "Goals"
+title: "Objectifs"
+subtitle: "Qu'allons-nous accomplir ?"
+menuTitle: "Objectifs"
 buildInColumns: "true"
 
 columnLeftContent: |

@@ -1,11 +1,11 @@
 type: "statement"
-menuTitle: "What if..."
-title: "What if we could..."
+menuTitle: "Et si..."
+title: "Si nous pouvions..."
 backgroundColor: "#232B2F"
 buildInStatements: true
 statements:
-  - "**Deploy** quickly and **confidently** every time"
-  - "**Innovate** quickly with fast **feedback**"
+  - "**Déployer** des applications rapidement **en toute confiance**"
+  - "**Innover** rapidement grâce aux retours utilisateur rapides"
 
 notes: |
 

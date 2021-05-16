@@ -1,9 +1,9 @@
 type: "two-line"
 title: "Challenges"
-menuTitle: "Monolithic Feedback Cycles"
-topLine: Monolithic
+menuTitle: "Retours utilisateurs"
+topLine: Applications monolithiques
 backgroundColor: "#424242"
-bottomLine: Feedback Loop
+bottomLine: Retours utilisateurs
 notes: |
 
   Long release cycles yield long feedback cycles.  Long feedback cycles are the pain of customer responsiveness.

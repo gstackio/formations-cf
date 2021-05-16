@@ -1,11 +1,11 @@
 type: "statement"
-menuTitle: "What if..."
-title: "What if we could..."
+menuTitle: "Et si..."
+title: "Si nous pouvions..."
 backgroundColor: "#243641"
 buildInStatements: true
 statements:
-  - "Scale our **teams** and **applications**"
-  - "Fail **gracefully** and **recover** quickly"
+  - "Re-dimensionner nos **équipes** et nos **applications**"
+  - Récupérer rapidement après une défaillance
 
 notes: |
 

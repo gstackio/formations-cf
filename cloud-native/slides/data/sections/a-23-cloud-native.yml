@@ -1,9 +1,9 @@
 type: "two-line"
-title: "What if we could..."
+title: "Si nous pouvions..."
 menuTitle: "Cloud Native"
-topLine:  Build the
+topLine:  Construire
 backgroundColor: "#243641"
-bottomLine: Right Thing
+bottomLine: les bons outils
 notes: |
   Building the right thing for your customers and business to outpace and out
   innovate your competitors.  The microservice movement is about maximizing

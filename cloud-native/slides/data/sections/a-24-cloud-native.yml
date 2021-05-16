@@ -1,9 +1,9 @@
 type: "two-line"
-title: "We can reach..."
-menuTitle: "Confidence"
+title: "Nous pouvons atteindre..."
+menuTitle: "Confiance"
 topLine:  Cloud Native
 backgroundColor: "#243641"
-bottomLine: Confidence
+bottomLine: Confiance
 notes: |
   Cloud native is about unlocking the potential of our organizations and the
   cloud by striving for high levels of confidence.  Confidence allows us to build the right thing QUICKLY.

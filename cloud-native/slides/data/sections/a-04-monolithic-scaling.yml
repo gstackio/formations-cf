@@ -1,9 +1,9 @@
 type: "two-line"
 title: "Défis"
-menuTitle: "Re-dimensionner une application monilithique"
-topLine: Application monolithique
+menuTitle: "Applications monilithiques"
+topLine: Applications monolithiques
 backgroundColor: "#424242"
-bottomLine: Re-dimensionnement
+bottomLine: Redimensionnement
 
 notes: |
 

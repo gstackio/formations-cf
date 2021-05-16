@@ -1,9 +1,9 @@
 type: "two-line"
-title: "Challenges"
-menuTitle: "Monolithic release cycles"
+title: "Défis"
+menuTitle: "Applications monolithiques"
 topLine: Monolithic
 backgroundColor: "#424242"
-bottomLine: Release Cycles
+bottomLine: Cycle de livraison
 
 notes: |
 
