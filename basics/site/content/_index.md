@@ -1,11 +1,11 @@
 ---
 date: 2016-04-19T19:04:11-06:00
-title: "Overview: Cloud Foundry Basics"
+title: "Aperçu : Les bases de Cloud Foundry"
 type: index
 ---
 
-<a href="https://github.com/EngineerBetter/training-zero-to-hero"><i class="fa fa-file-zip-o"> </i> Sample Apps</a>
+<a href="https://github.com/gstackio/formations-cf"><i class="fa fa-file-zip-o"> </i> Applications d'exemple</a>
 
-Join us for a **hands-on** training workshop to learn about **deploying and managing applications on Cloud Foundry**. We will give an overview of Cloud Foundry and how it works, including specifics relating to services, buildpacks, and architecture. We will also look at how to effectively work with Cloud Foundry in your organization.
+Bienvenue dans cette formation à Cloud Foundry. **Par la pratique**, vous apprendrez à **déployer et gérer des applications Cloud Foundry**. Nous verrons globalement comment Cloud Foundry fonctionne, et nous détaillerons les sujets des services, des buildpacks et de l'architecture. Nous verrons comment utiliser Cloud Foundry efficacement en entreprise.
 
-This training is targeted at people with **little or no Cloud Foundry experience** but some experience delivering web-based applications. If you're curious to learn how Cloud Foundry can help you focus on **development and innovation**, rather than infrastructure plumbing, this is the right course for you.
+Cette formation s'adresse à ceux qui n'ont que **peu ou pas d'expérience en Cloud Foundry**, mais une certaine connaissance des applications web. Si vous êtes curieux de savoir comment Cloud Foundry peut vous aider à vous focaliser sur le **développement et l'innovation**, plutôt que la plomberie d'infrastructure, cette formation est là pour vous.
