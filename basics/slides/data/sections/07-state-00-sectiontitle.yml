@@ -6,4 +6,4 @@ backgroundColor: "#243641"
 buildInColumns: "false"
 statements:
   - Chapitre 7
-  - Comment gérer le _stateful_
+  - Gérer le _stateful_
