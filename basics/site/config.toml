@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Cloud Foundry Basics"
+languageCode = "fr-fr"
+title = "Les bases de Cloud Foundry"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 # canonifyurls = true
@@ -46,22 +46,22 @@ googleAnalytics = "UA-67001027-2"
 
 
 [[menu.main]]
-	name   = "Overview"
+	name   = "Aperçu"
 	url    = ""
 	weight = 0
 
 [[menu.main]]
-	name   = "Prerequisites"
+	name   = "Pré-requis"
 	url    = "prereqs/"
 	weight = 10
 
 [[menu.main]]
-	name   = "Agenda"
+	name   = "Sommaire"
 	url    = "agenda/"
 	weight = 20
 
 [[menu.main]]
-	name   = "Resources"
+	name   = "Compléments"
 	url    = "resources/"
 	weight = 30
 
