@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Cloud Native with Microservices"
+languageCode = "fr-fr"
+title = "Cloud Native et Microservices"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 # canonifyurls = true
