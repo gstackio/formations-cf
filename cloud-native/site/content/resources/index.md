@@ -1,19 +1,19 @@
 ---
 date: 2016-04-19T19:21:15-06:00
-title: Resources
+title: Compléments
 ---
 
 ## Cloud Foundry
 
-Main Site: [cloudfoundry.org](https://www.cloudfoundry.org)
+Site principal: [cloudfoundry.org](https://www.cloudfoundry.org)
 
-* Mailing lists - [lists.cloudfoundry.org](https://lists.cloudfoundry.org)
+* Listes de diffusion - [lists.cloudfoundry.org](https://lists.cloudfoundry.org)
 * [github.com/cloudfoundry](https://github.com/cloudfoundry)
 * [github.com/cloudfoundry-incubator](https://github.com/cloudfoundry-incubator)
 
 ## Bosh
 
-Main Site: [bosh.io](https://bosh.io)
+Site principal: [bosh.io](https://bosh.io)
 
 * stemcells: [bosh.io/stemcells](http://bosh.io/stemcells)
 * releases: [bosh.io/releases](http://bosh.io/releases)
