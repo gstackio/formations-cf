@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "What is the Container Runtime?"
-subtitle: "Container Runtime"
-menuTitle: "Container Runtime"
+title: "Qu'est-ce que le 'Container Runtime' ?"
+subtitle: "Le 'Container Runtime'"
+menuTitle: "Le 'Container Runtime'"
 buildInColumns: "false"
 
 columnLeftContent: |
@@ -15,12 +15,12 @@ columnLeftContent: |
 
 columnRightContent: |
 
-  **Container Runtime is Kubernetes**
+  C'est simplement **Kubernetes**
 
-  * Runs **pre-built container images**
-  * Good for running **other people's code**
-  * Suited to **lift 'n' shift**, non-cloud-native systems
+  * Fait tourner des **images de conteneurs** déjà construites
+  * Idéal pour les **applications des fournisseurs**
+  * Adapté pour embarquer les applications historiques qui ne sont pas _Cloud Native_
 
 notes: |
 
-  CaaS - somewhere between IaaS and PaaS
+  CaaS - à mi-chemin entre le IaaS et le PaaS

@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "What is a Cloud Native Platform?"
-subtitle: "Explaining Cloud Native"
-menuTitle: "What is a Cloud Native Platform?"
+title: "Qu'est-ce qu'une plateforme 'Cloud Native' ?"
+subtitle: "Le 'Cloud Native'"
+menuTitle: "Qu'est-ce qu'une plateforme 'Cloud Native' ?"
 buildInColumns: "false"
 
 columnLeftContent: |
@@ -15,17 +15,17 @@ columnLeftContent: |
 
 columnRightContent: |
 
-  **What characterises Cloud Native?**
+  **Charactériser le _Cloud Native_**
 
-  * **12 Factor** architectural style
-  * Embracing **low cost of change**
-  * Fast **feedback** and **small batch** sizes
+  * Conforme aux **12 facteur**
+  * Focalisé sur un **faible coût du changement**
+  * Itérations rapides, livrer des **petites unités** de changements et **tirer les enseignements** rapidement
 
 notes: |
 
-  * Some key factors for CF
-    * 6. Execute the app as one or more stateless processes
-    * 9. Optimise fast startup and graceful shutdown
-    * 11. Treat logs as event streams
-  * CI/CD
-  * Change is now cheap
+  * Des "facteurs" clés avec CF&nbsp;:
+    * 6. Exécutez l’application comme un ou plusieurs processus sans état
+    * 9. Maximisez la robustesse avec des démarrages rapides et des arrêts gracieux
+    * 11. Traitez les logs comme des flux d’évènements
+  * Intégration continue (CI) et déploiement continu (CD)&nbsp;: CI/CD
+  * Les changements deviennent alors peu coûteux

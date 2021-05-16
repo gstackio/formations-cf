@@ -1,8 +1,8 @@
 ---
-menuTitle: "Lab"
+menuTitle: "Travaux pratiques"
 type: "statement"
 backgroundColor: "#243641"
 buildInStatements: "true"
 statements:
-  - Lab 1.
-  - I can log into Cloud&nbsp;Foundry
+  - Travaux pratiques
+  - Je me connecte à Cloud&nbsp;Foundry

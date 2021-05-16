@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "Open Source Distribution"
-subtitle: "The open source cloud native platform"
-menuTitle: "Open Source Distribution"
+title: "Une distribution Open Source"
+subtitle: "La plateforme 'Cloud Native' open source"
+menuTitle: "Une distribution Open Source"
 buildInColumns: "false"
 
 columnLeftContent: |
@@ -11,13 +11,20 @@ columnLeftContent: |
 
 columnRightContent: |
 
-  **Where can you get Open Source Cloud Foundry?**
+  **Où peut-on obtenir Cloud Foundry open source&nbsp;?**
 
   * [**github.com/cloudfoundry**](https://github.com/cloudfoundry)
-  * [**cfdev**](https://github.com/cloudfoundry-incubator/cfdev) is CF and BOSH on macOS
-  * **cf-deployment** requires [BOSH](https://bosh.io/docs) knowledge
+  * [**cfdev**](https://github.com/cloudfoundry-incubator/cfdev), un CF complet dans une machine virtuelle légère  pour macOS
+  * **cf-deployment**, qui demande de déjà connaître [BOSH](https://bosh.io/docs)
   * **BOSH Lite v2** for a local CF deployment
+  * [**cf local**](https://github.com/cloudfoundry-incubator/cflocal) qui simule un CF dans un Docker en local
 
 notes: |
 
-  Cloud Foundry is an open source project.  Using the OSS distribution requires BOSH (significant learning curve).
+  * Cloud Foundry est un projet open source. Mais utiliser une distribution _open source_ nécessite des compétences BOSH, qui demande un certain investissement.
+
+  * BOSH est un robot qui gère des VMs, c'est la _Rolls Royce_ en la matière.
+
+  * Le projet `cfdev` utilise la technologie HyperKit de macOS. Malheureusement, il n'est plus maintenu.
+
+  * BOSH-Lite v2 est utilisé par Gstack pour un environnement de productiion à moindre coût.

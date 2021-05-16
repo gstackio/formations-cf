@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "Why a Cloud Native Platform?"
-subtitle: "Explaining Cloud Native"
-menuTitle: "Why a Cloud Native Platform?"
+title: "Pourquoi une plateforme 'Cloud Native' ?"
+subtitle: "Le 'Cloud Native'"
+menuTitle: "Pourquoi une plateforme 'Cloud Native' ?"
 buildInColumns: "false"
 
 columnLeftContent: |
@@ -16,18 +16,18 @@ columnLeftContent: |
 columnRightContent: |
 
 
-  **Why a Cloud Native Platform?**
+  **Pourquoi une plateforme _Cloud Native_&nbsp;?**
 
-  * Don't waste time on **plumbing** infrastructure
-  * Deliver **business value** more often
-  * **Learn** about your customers more quickly
+  * Ne pas perdre de temps dans la **plomberie** des réglages d'infrastructure
+  * Déliivrer davantage de **valeur pour le métier**, et plus souvent
+  * **Tirer les enseignements** des retours utilisateurs plus rapidement
 
 notes: |
 
-  Find what your customers actually want by showing them.
+  Trouver ce que vos clients veulent vraiment en le leur montrant.
 
-  Iterate constantly by learning what is actually important.
+  Itérer en continu et apprendre à distinguer ce qui est vraiment important.
 
-  Do not wait for IT to provision servers.
+  Ne pas attendre que l'équipe d'infrastructure livre des serveurs.
 
-  Let developers choose the language and services that they believe are best for the job.
+  Donner le choix aux développeur du langage et des technologies de bases de données qu'ils pensent le plus adéquats.
