@@ -1,27 +1,27 @@
 ---
 date: 2016-04-19T19:21:15-06:00
-title: Agenda
+title: Sommaire
 ---
 
-## 1. From Monoliths to Microservices
+## 1. Des architectures monolithiques aux Microservices
 
 <a href="/slides/#/" target="_blank">
   <i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/setup)
 
 
-## 2. Microservices & 12 Factor Apps
+## 2. Microservices & applications 12 Facteurs
 
 <a href="/slides/#/13" target="_blank">
   <i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/push)
 
 
-## 3. 12 Factor Review
+## 3. Revue des 12 Facteurs
 
 <a href="/slides/#/21" target="_blank">
   <i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/bind)
 
 
-## 4. Service Discovery
+## 4. L'autodecouverte des services
 
 <a href="/slides/#/26" target="_blank">
   <i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/eureka)
@@ -39,4 +39,4 @@ title: Agenda
   <i class="fa fa-tv"></i> Slides</a> &nbsp; | &nbsp; [<i class="fa fa-flask"></i> Lab](../labs/logs)
 
 
-## 7. Recap & Retro
+## 7. Récapitulatif
