@@ -2,14 +2,25 @@
 title: Binding and Environment Variables
 ---
 
-In the last section, we lost all our data when we restarted our app.  In this section, we will fix that.
+In the last section, we lost all our data when we restarted our app.  In this
+section, we will fix that.
 
-## Creating a PostgreSQL instance
+Instead of using the “people” app, we will use the “_Spring Music_” demo app:
 
-We will create an instance of postgresql and bind it to our app, thereby removing state from memory.
+```sh
+git clone https://github.com/cloudfoundry-samples/spring-music.git
+cd spring-music
+```
+
+## Creating a MySQL instance
+
+We will create an instance of Mysql and bind it to our app, thereby removing
+state from memory.
 
 * Use `cf marketplace` to view the available services and plans.
-* Use `cf create-service` to create a PostgreSQL service instance `a9s-postgresql` and select the `postgresql-single-small` plan.
+
+* Use `cf create-service` to create a MySQL service instance `p.mysql` and
+  select the `db-small` plan.
 
 ### Checking Your Work
 
@@ -19,8 +30,8 @@ You should be able to see your service instance:
 cf services
 ...
 
-name        service          plan                      bound apps   last operation
-people-db   a9s-postgresql94 postgresql-single-small                create succeeded
+name        service   plan       bound apps   last operation
+people-db   p.mysql   db-small                create succeeded
 ```
 
 ## Binding to Your App
@@ -38,23 +49,23 @@ You should be able to see your service instance bound to your app:
 cf services
 
 ...
-name        service          plan                      bound apps   last operation
-people-db   a9s-postgresql94 postgresql-single-small   people       create succeeded
+name        service   plan       bound apps   last operation
+people-db   p.mysql   db-small   people       create succeeded
 ```
 
 ## Testing Statelessness
 
-At this point, you should be able to put data into your service that lands in the external PostgreSQL service.
+At this point, you should be able to put data into your service that lands in the external MySQL service.
 
 ```sh
-curl -X POST -H "Content-Type:application/json" -d '{"firstName":"Jedediah,", "lastName":"Leland", "company":"The Inquirer"}' http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people
+curl -X POST -H "Content-Type:application/json" -d '{"firstName":"Jedediah,", "lastName":"Leland", "company":"The Inquirer"}' http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
 ```
 
 * Restart your app.
 * You should still see the data:
 
 ```sh
-curl http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people
+curl http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
 ...
 
 {
@@ -65,23 +76,23 @@ curl http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people
       "company" : "The Inquirer",
       "_links" : {
         "self" : {
-          "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people/2"
+          "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people/2"
         },
         "person" : {
-          "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people/2"
+          "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people/2"
         }
       }
     } ]
   },
   "_links" : {
     "self" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people"
     },
     "profile" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/profile/people"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/profile/people"
     },
     "search" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people/search"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people/search"
     }
   },
   "page" : {
@@ -103,7 +114,9 @@ Run the following:
 cf env people
 ```
 
-This will print the environment variables for your application.  Look for a `System-Provided` variable called `VCAP_SERVICES`.  You should see the service credentials for your PostgreSQL service.  Note:
+This will print the environment variables for your application.  Look for a
+`System-Provided` variable called `VCAP_SERVICES`.  You should see the service
+credentials for your MySQL service.  Note:
 
 > * Cloud Foundry leverage the environment variables: <a href="http://12factor.net/config" target="_blank">12factor.net/config</a>
 > * Cloud Foundry treats services as attached resources: <a href="http://12factor.net/backing-services" target="_blank">12factor.net/backing-services</a>
@@ -111,7 +124,8 @@ This will print the environment variables for your application.  Look for a `Sys
 
 ## Scale Out
 
-By moving the state for your application into an external service, you can now scale out your application horizontally.
+By moving the state for your application into an external service, you can now
+scale out your application horizontally.
 
 * Use `cf scale` to scale your app to 2 instances.
 
