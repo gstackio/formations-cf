@@ -16,8 +16,8 @@ Use `cf push` to deploy the application.  You should:
 
 * Create 1 instance of the app
 * Allocate 750M of memory
-* Use the -p flag to point to the jar file
-* Use --random-route to ensure no collisions with other students
+* Use the `-p` flag to point to the jar file
+* Use `--random-route` to ensure no collisions with other students
 
 ```sh
 cf push people --random-route -b java_buildpack -m 750M -p /path/to/people.jar
@@ -32,7 +32,7 @@ cf apps
 ...
 
 name     requested state   instances   memory   disk   urls
-people   started           1/1         750M     512M     people-<RANDOM_ROUTE>.de.a9sapp.eu
+people   started           1/1         750M     512M   people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io
 ```
 
 The app also has an endpoint called `/people`.  You should also be able to curl it:
@@ -40,7 +40,7 @@ The app also has an endpoint called `/people`.  You should also be able to curl 
 > On Windows, if you don't have curl you can get it from here: <a href="https://curl.haxx.se/download.html" target="_blank">curl.haxx.se/download.html</a>
 
 ```sh
-curl people-<RANDOM_ROUTE>.de.cfapps.eu/people
+curl people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
 ...
 
 {
@@ -49,13 +49,13 @@ curl people-<RANDOM_ROUTE>.de.cfapps.eu/people
   },
   "_links" : {
     "self" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people"
     },
     "profile" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/profile/people"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/profile/people"
     },
     "search" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people/search"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people/search"
     }
   },
   "page" : {
@@ -72,13 +72,13 @@ curl people-<RANDOM_ROUTE>.de.cfapps.eu/people
 You can add data by issuing a curl request to POST to the people endpoint.  Be sure to replace your information and URL below:
 
 ```sh
-curl -X POST -H "Content-Type:application/json" -d '{"firstName":"Jedediah,", "lastName":"Leland", "company":"The Inquirer"}' http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people
+curl -X POST -H "Content-Type:application/json" -d '{"firstName":"Jedediah,", "lastName":"Leland", "company":"The Inquirer"}' http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
 ```
 
 Now, you should see the data:
 
 ```sh
-curl http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people
+curl http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
 ...
 
 {
@@ -89,23 +89,23 @@ curl http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people
       "company" : "The Inquirer",
       "_links" : {
         "self" : {
-          "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people/1"
+          "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people/1"
         },
         "person" : {
-          "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people/1"
+          "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people/1"
         }
       }
     } ]
   },
   "_links" : {
     "self" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people"
     },
     "profile" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/profile/people"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/profile/people"
     },
     "search" : {
-      "href" : "http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people/search"
+      "href" : "http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people/search"
     }
   },
   "page" : {
@@ -123,7 +123,7 @@ curl http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people
 * Curl your app again:
 
 ```sh
-curl http://people-<RANDOM_ROUTE>.de.a9sapp.eu/people
+curl http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
 ```
 
 What happened? Why? Not very durable, right? We will correct this in the next exercise.
