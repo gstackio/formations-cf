@@ -13,7 +13,7 @@ If you already have the CLI, be sure you have the most recent version.
 
 ```sh
   cf --version
-  cf version 6.35.2+88a03e995.2018-03-15
+  cf version 7.2.0+be4a5ce2b.2020-12-10
 ```
 If your version is not more recent that this one, please install <a href="https://docs.cloudfoundry.org/cf-cli/install-go-cli.html" target="_blank">the latest</a>.
 
@@ -44,15 +44,15 @@ You should see output similar to:
 
 ```sh
 cf login
-API endpoint: https://api.aws.ie.a9s.eu
+API endpoint: https://api.sys.training.gcp.gstack.io
 
-Email> owolf+cftraining@anynines.com
+Email> benjamin
 
 Password>
 Authenticating...
 OK
 
-Targeted org owolf+cftraining_anynines_com
+Targeted org team-chevreuil
 
 Select a space (or press enter to skip):
 1. production
@@ -62,9 +62,9 @@ Select a space (or press enter to skip):
 Space> 3
 Targeted space test
 
-API endpoint:   https://api.aws.ie.a9s.eu (API version: 2.100.0)
-User:           owolf+cftraining@anynines.com
-Org:            owolf+cftraining_anynines_com
+API endpoint:   https://api.sys.training.gcp.gstack.io (API version: 2.100.0)
+User:           benjamin
+Org:            team-chevreuil
 Space:          test
 ```
 
