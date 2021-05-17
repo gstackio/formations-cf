@@ -1,12 +1,12 @@
 type: "two-line"
 title: "Défis"
 menuTitle: "Applications monilithiques"
-topLine: Applications monolithiques
+topLine: Monolithe
 backgroundColor: "#424242"
-bottomLine: Redimensionnement
+bottomLine: Scaling
 
 notes: |
 
-  Re-dimensionner une application monolithique est souvent difficile.
+  Redimensionner une application monolithique est souvent difficile.
   La complexité du code, ses inter-dépendances, le réseau, les sources de données
   rendent souvent le re-dimensionnement difficile à partir d'un certain point.

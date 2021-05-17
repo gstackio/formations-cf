@@ -6,7 +6,7 @@ columnLeftContent: |
 
   <br />
 
-  # Qu'est-ce qu'une application monolithique ?
+  # Qu'est-ce qu'une application monolithique&nbsp;?
 
   <img src="img/monolith.svg" style="padding-left: 50px"/>
 
@@ -17,7 +17,7 @@ columnRightContent: |
   # Typiquement...
 
   * Formée d'un seul bloc, composants interconnectés et interdépendants
-  * Enchevètrement des responsabilités
+  * Enchevêtrement des responsabilités
   * **Grosse** application à deployer
 
 
