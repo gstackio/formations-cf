@@ -141,7 +141,7 @@ cf app people
 1   running   2016-05-17 10:01:35 AM   0.0%     232.1M of 750M   153.7M of 512M
 ```
 
-## Scale Down
+## Scale In
 
 * Use `cf scale` to reduce your app back to 1 instance.
 
