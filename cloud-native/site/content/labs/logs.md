@@ -49,7 +49,7 @@ We have pushed four microservice applications that use Spring Cloud Slueth with 
 The source for these applications can be found at:
 <https://github.com/mikegehard/DistributedTracingDemo_Velocity2016>
 
-The Zipkin UI can be found at <http://zipkin-server-cfna18.de.a9sapp.eu/>.
+The Zipkin UI can be found at <http://zipkin-server-smart-gerenuk-ad.apps.training.gcp.gstack.io/>.
 
 In the previous section you saw span and trace IDs added to the application logs. Now lets see how zipkin works with this information to provide visiblity into your microservice application.
 
@@ -64,7 +64,7 @@ curl http://acme-financial-customer-microservice-lean-hedgehog-yr.apps.training.
 
 ### Understanding the trace hierarchy
 
-In your browser Navigate to the <a href="http://zipkin-server-smart-gerenuk-ad.apps.training.gcp.gstack.io//dependency" target="_blank">dependencies</a> to view the microservice hierarchy.
+In your browser Navigate to the <a href="http://zipkin-server-smart-gerenuk-ad.apps.training.gcp.gstack.io/dependency" target="_blank">dependencies</a> to view the microservice hierarchy.
 
 * Which microservices get called from the UI service?
 * Which microservices are at the end of the call chain?
