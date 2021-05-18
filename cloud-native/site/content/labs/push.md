@@ -20,7 +20,7 @@ Use `cf push` to deploy the application.  You should:
 * Use `--random-route` to ensure no collisions with other students
 
 ```sh
-cf push people --random-route -b java_buildpack -m 750M -p /path/to/people.jar
+cf push people --random-route -b java_buildpack_offline -m 750M -p /path/to/people.jar
 ```
 
 #### Checking Your Work
