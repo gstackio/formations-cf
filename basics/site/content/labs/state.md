@@ -10,7 +10,7 @@ In this lab,  you will create an instance of a Redis service and use it with an 
 First, you need to create an instance of the service.
 
 {{% do %}}Use `cf marketplace` to view the details of the Redis service{{% /do %}}
-{{% do %}}Use the CLI to create an instance of the `30mb` plan for Pivotal Web Services, the `free` plan on The Swisscom Application Cloud and the `redis-single-nano` plan on anynines{{% /do %}}
+{{% do %}}Use the CLI to create an instance of the `shared-vm` plan for Gstack training platform, or the `30mb` plan for Pivotal Web Services, or the `free` plan on The Swisscom Application Cloud and the `redis-single-nano` plan on anynines{{% /do %}}
 {{% do %}}Use `cf help -a` to find command to list the services in your space{{% /do %}}
 
 {{% checking %}}
@@ -18,8 +18,8 @@ First, you need to create an instance of the service.
 Depending on your Cloud Foundry provider, you should see something similar to:
 
 ```sh
-name      service      plan   bound apps   last operation
-counter   rediscloud   30mb                create succeeded
+name      service   plan        bound apps   last operation     broker    upgrade available
+counter   p-redis   shared-vm                create succeeded   p-redis
 ```
 
 {{% /checking %}}
