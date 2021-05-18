@@ -102,7 +102,7 @@ registered in the Eureka console.
 
 ## Pushing the Browser App
 
-* Now, push the browser app with 512MB of memory. The jar file is located
+* Now, push the browser app with 750MB of memory. The jar file is located
   here <a href="/resources/browser.jar" target="_blank">browser.jar</a>.
 
 * Bind the Eureka service and restart the browser app.
