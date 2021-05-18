@@ -1,5 +1,5 @@
 ---
-title: Circuit Breakers with Hystrix
+title: Lab 5: Circuit Breakers with Hystrix
 ---
 
 Currently, our browser app does not fail gracefully when an issue occurs while communicating with the people service. Let's fix that.

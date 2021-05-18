@@ -1,5 +1,5 @@
 ---
-title: Service Discovery with Eureka
+title: Lab 4: Service Discovery with Eureka
 ---
 
 In this exercise, you will deploy a
