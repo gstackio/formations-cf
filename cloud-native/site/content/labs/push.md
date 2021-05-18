@@ -1,5 +1,5 @@
 ---
-title: Lab 2: Pushing a data service
+title: "Lab 2: Pushing a data service"
 ---
 
 In this exercise, you will push a RESTful data microservice.

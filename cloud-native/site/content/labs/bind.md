@@ -1,5 +1,5 @@
 ---
-title: Lab 3: Binding and Environment Variables
+title: "Lab 3: Binding and Environment Variables"
 ---
 
 In the last section, we lost all our data when we restarted our app.  In this

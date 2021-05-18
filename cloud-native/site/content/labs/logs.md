@@ -1,6 +1,6 @@
 ---
 date: 2016-04-19T19:21:15-06:00
-title: Lab 6: Logs
+title: "Lab 6: Logs"
 ---
 
 In this exercise, you will view logs for the browser application as well as instrumentation for distributed tracing in another demo application.

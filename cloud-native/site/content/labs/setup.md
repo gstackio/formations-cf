@@ -1,5 +1,5 @@
 ---
-title: Lab 1: Setup
+title: "Lab 1: Setup"
 ---
 
 ## anynines Public PaaS
