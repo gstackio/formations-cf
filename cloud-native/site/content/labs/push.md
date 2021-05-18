@@ -72,7 +72,9 @@ curl people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
 You can add data by issuing a curl request to POST to the people endpoint.  Be sure to replace your information and URL below:
 
 ```sh
-curl -X POST -H "Content-Type:application/json" -d '{"firstName":"Jedediah,", "lastName":"Leland", "company":"The Inquirer"}' http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
+curl -X POST -H "Content-Type:application/json" \
+  -d '{"firstName":"Jedediah,", "lastName":"Leland", "company":"The Inquirer"}' \
+  http://people-<RANDOM_ROUTE>.apps.training.gcp.gstack.io/people
 ```
 
 Now, you should see the data:
