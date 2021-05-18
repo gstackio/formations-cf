@@ -56,22 +56,22 @@ In the previous section you saw span and trace IDs added to the application logs
 If you want to add a new trace, you can curl any one of the microservices using:
 
 ```sh
-curl http://acme-financial-ui-cfna18.de.a9sapp.eu/start
-curl http://acme-financial-account-cfna18.de.a9sapp.eu/action
-curl http://acme-financial-back-office-cfna18.de.a9sapp.eu/action
-curl http://acme-financial-customer-cfna18.de.a9sapp.eu/action
+curl http://acme-financial-ui-wise-porcupine-kf.apps.training.gcp.gstack.io/start
+curl http://acme-financial-account-microservice-brave-panda-gj.apps.training.gcp.gstack.io/action
+curl http://acme-financial-back-office-microservice-relaxed-turtle-hg.apps.training.gcp.gstack.io/action
+curl http://acme-financial-customer-microservice-lean-hedgehog-yr.apps.training.gcp.gstack.io/action
 ```
 
 ### Understanding the trace hierarchy
 
-In your browser Navigate to the <a href="http://acme-zipkin-server-cfna18.de.a9sapp.eu/dependency" target="_blank">dependencies</a> to view the microservice hierarchy.
+In your browser Navigate to the <a href="http://zipkin-server-smart-gerenuk-ad.apps.training.gcp.gstack.io//dependency" target="_blank">dependencies</a> to view the microservice hierarchy.
 
 * Which microservices get called from the UI service?
 * Which microservices are at the end of the call chain?
 
 ### Viewing trace timings
 
-In your browser Navigate <a href="https://zipkin-server-cfna18.de.a9sapp.eu/" target="_blank">here</a> to access the find trace form.
+In your browser Navigate <a href="http://zipkin-server-smart-gerenuk-ad.apps.training.gcp.gstack.io//" target="_blank">here</a> to access the find trace form.
 
 Clicking on the `Find Traces` button will bring up a list of existing traces.
 
