@@ -5,14 +5,6 @@ title: "Lab 3: Binding and Environment Variables"
 In the last section, we lost all our data when we restarted our app.  In this
 section, we will fix that.
 
-Instead of using the “people” app, we will use the
-[“Spring Music” demo app](https://github.com/cloudfoundry-samples/spring-music):
-
-```sh
-git clone https://github.com/cloudfoundry-samples/spring-music.git
-cd spring-music
-```
-
 ## Creating a MySQL instance
 
 We will create an instance of Mysql and bind it to our app, thereby removing
@@ -157,6 +149,16 @@ cf app people
 > <a href="http://12factor.net/disposability" target="_blank">12factor.net/disposability</a>
 
 ## Beyond the Class
+
+
+* Instead of using the “people” app, we can also use the
+  [“Spring Music” demo app](https://github.com/cloudfoundry-samples/spring-music):
+
+        $ git remote -v
+        origin  https://github.com/gstackio/training-zero-to-hero.git (fetch)
+        origin  https://github.com/gstackio/training-zero-to-hero.git (push)
+        $ git pull
+        $ cd $(git rev-parse --show-toplevel)/cloud-native/spring-music
 
 * CF also allows you to manipulate environment variables or create your own:
   <a href="https://docs.cloudfoundry.org/devguide/deploy-apps/environment-variable.html"
